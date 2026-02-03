@@ -1,15 +1,15 @@
-# Codex PM Skill Pack
+# Codex Skills Pack
 
-This bundle contains one merged skill:
+This repository contains the following skills:
 
 - `gh-pm` — PM prompt/rules plus GitHub Issues management via `gh`.
+- `log-archive-triage` — Analyze provided logs or archives and summarize issues.
 
 ## Install
 
 Copy the skills into your Codex skills directory:
 
 ```
-cp -r codex-pm-skill/gh-pm ~/.codex/skills/
+cp -r gh-pm ~/.codex/skills/
+cp -r log-archive-triage ~/.codex/skills/
 ```
-
-The PM prompt is located at `codex-pm-skill/gh-pm/PROMPT.md`.
