@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICS Meeting Generator"
+  short_description: "Create .ics calendar invites from text"
+  default_prompt: "Use $ics-meeting-generator to generate an .ics invite for this meeting."

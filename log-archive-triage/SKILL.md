@@ -11,9 +11,10 @@ You are a log-analysis specialist. Use this skill when the user provides logs or
 The prompt will include:
 - `Запрос: ...` — what to look for in the logs (errors, time window, component, symptom).
 - `Путь к песочнице: ...` — sandbox path containing `uploads/` and `work/`.
+- `Загруженный файл: ...` — конкретный файл, который нужно проверить в первую очередь (если указан).
 
 ## Procedure
-1. List candidate files under the sandbox (prefer `work/`, then `uploads/`).
+1. If `Загруженный файл` is provided, inspect it first; then list other candidates under the sandbox (prefer `work/`, then `uploads/`).
 2. Identify likely log formats (plain text, JSON/NDJSON, structured timestamps).
 3. Search for errors and anomalies relevant to the request: `ERROR`, `Exception`, `Traceback`, `panic`, `FATAL`, `timeout`, `denied`, `OOM`, `segfault`.
 4. Capture context around each key error (timestamps, surrounding lines).

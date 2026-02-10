@@ -1,15 +1,20 @@
-# Codex Skills Pack
+# Work Organization Scripts (Codex Skills)
 
-This repository contains the following skills:
+This repository is a curated set of Codex skills and helper scripts for organizing work: triage, meeting scheduling, log analysis, and fast technical summaries.
 
-- `gh-pm` — PM prompt/rules plus GitHub Issues management via `gh`.
-- `log-archive-triage` — Analyze provided logs or archives and summarize issues.
+## Included skills
+- `gh-pm` — PM triage plus GitHub Issues operations via `gh`.
+- `ics-meeting-generator` — Create `.ics` meeting invites from text.
+- `link-to-textbook` — Turn tech articles into a concise, cited mini-textbook.
+- `log-archive-triage` — Analyze logs/archives and summarize root causes.
 
 ## Install
 
-Copy the skills into your Codex skills directory:
+Copy the skill folders into your Codex skills directory:
 
-```
+```bash
 cp -r gh-pm ~/.codex/skills/
+cp -r ics-meeting-generator ~/.codex/skills/
+cp -r link-to-textbook ~/.codex/skills/
 cp -r log-archive-triage ~/.codex/skills/
 ```

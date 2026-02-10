@@ -1,0 +1,4 @@
+interface:
+  display_name: "Link to Textbook"
+  short_description: "Cited tech summaries into a mini-textbook"
+  default_prompt: "Use $link-to-textbook to turn these links into a concise, cited tech mini-textbook."

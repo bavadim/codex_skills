@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub PM Triage"
+  short_description: "PM triage and GitHub Issues via gh"
+  default_prompt: "Use $gh-pm to triage this chat and update GitHub issues."

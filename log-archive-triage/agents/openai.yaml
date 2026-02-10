@@ -1,0 +1,4 @@
+interface:
+  display_name: "Log/Archive Triage"
+  short_description: "Analyze logs/archives to find root causes"
+  default_prompt: "Use $log-archive-triage to analyze these logs and summarize issues."
